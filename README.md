@@ -4,7 +4,7 @@
 - an homage to Codd's relational algebra of sets
 - a wrapper around @tomchristie's excellent [databases](//github.com/encode/databases)
 
-## e.g.
+## e.g.
 
 ```python
 import databases
