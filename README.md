@@ -1,8 +1,11 @@
 # Kalessin is:
 
-- an experiment in Python metaclasses
 - an homage to Codd's relational algebra of sets
 - a wrapper around @tomchristie's excellent [databases](//github.com/encode/databases)
+- an experiment in Python metaclasses. Sets combine the typing.NamedTuple metaclass machinery with something like Django's ModelMeta to get model instances which are:
+  - typed
+  - tuples in memory
+  - loaded and stored with SQLAlchemy
 
 ## e.g.
 
